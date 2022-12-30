@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+ padding: 15px;
+}
+.Instruction{
+    padding: 15px;
+}
+.heading{
+    background-color: #ABCEF0;
+    text-align: center;
+    border: 1px solid rgb(74, 74, 230);
+    margin: 3px;
+    padding: 7px;
+    font-size: 35px;
+    text-decoration:dotted;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.content{
+padding: 25px 30px;
+margin-top: 10px;
+font-size: large;
+left: 10px;
+border: 1px solid rgb(74, 74, 230);
+background-color: #D9D9D9;
+border-radius: 25px;
+overflow: hidden;
+line-height: 40px;
+text-decoration: solid;
+font-weight: 400;
+overflow: hidden;
+display: flex;
+}
+#checkme{
+    margin-top: 25px;
+    border: 1px solid black;
+
+}
+.instuction-Read{
+    text-align: left;
+    padding-left: 15px;
+
+}
+.span{
+    font-size: 20px;    
+}
+.inputButton{
+    background-color: #5F5FED;
+    color:white ;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px 65px;
+    cursor: pointer;
+}
+.inputButton:hover{
+    background-color: white;
+    color: #5F5FED;
+    border: 2px solid #5F5FED;
+}
+
+
